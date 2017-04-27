@@ -3,7 +3,10 @@
   "name": "So You Want to be Gritty",
   "version": "1",
   "description": "Inspired by Dr. Angela Duckworth's research on Grit, this Chrome extension provides a new daily tip on how to develop grit and become more successful.",
-  // "icons": {}
+  // "icons": {},
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
   "background": {
     // "scripts": ["background.js"]
     "page": "index.html",
